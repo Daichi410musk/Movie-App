@@ -87,7 +87,10 @@ function App() {
             <div className="hero-section-overview">{heroOverview}</div>
           )}
           <div className="hero-section-actions">
-            <button className="hero-section-btn hero-section-btn-primary">
+            <button
+              className="hero-section-btn hero-section-btn-primary"
+              onClick={() => alert("未実装です")}
+            >
               ▶ Play
             </button>
             <Link
